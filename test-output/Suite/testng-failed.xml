@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ch"/>
+  <test name="FF(failed)" parallel="tests">
+    <parameter name="browser" value="ch"/>
+    <groups>
+      <run>
+        <include name="SMK"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Scripts.idamscripts">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="baselaunch"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Scripts.idamscripts -->
+    </classes>
+  </test> <!-- FF(failed) -->
+</suite> <!-- Failed suite [Suite] -->
