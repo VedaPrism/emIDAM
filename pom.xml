@@ -197,6 +197,23 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>${maven-compiler.version}</version>
+            <configuration>
+                <source>${java.version}</source>
+                <target>${java.version}</target>
+                <debug>true</debug>
+            </configuration>
+            <dependencies>
+                <dependency>
+                    <groupId>org.ow2.asm</groupId>
+                    <artifactId>asm</artifactId>
+                    <version>6.2</version>
+                </dependency>
+            </dependencies>
+        </plugin>
   </plugins>
 </build>
 </project>
