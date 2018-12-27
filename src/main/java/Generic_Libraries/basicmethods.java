@@ -47,17 +47,17 @@ public class basicmethods {
 		//Browser launch and selection of browser
 		if(btype.equalsIgnoreCase("ff")){
 			
-			System.setProperty("webdriver.gecko.driver",(System.getProperty("user.dir")+"\\src\\main\\resources\\geckodriver.exe"));
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\resources\\geckodriver.exe");
 			s = new FirefoxDriver();
 			
 		}else if(btype.equalsIgnoreCase("ch")) {
 			
-			System.setProperty("webdriver.chrome.driver","E:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\resources\\chromedriver.exe");
 			s = new ChromeDriver();
 		}
 		else if(btype.equalsIgnoreCase("IE")) {
 			
-			System.setProperty("webdriver.ie.driver", (System.getProperty("user.dir")+"\\src\\main\\resources\\IEDriverServer.exe"));
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\IEDriverServer.exe");
 			s = new InternetExplorerDriver();
 		}
 		s.manage().window().maximize();
