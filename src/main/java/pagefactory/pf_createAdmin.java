@@ -104,8 +104,8 @@ public class pf_createAdmin extends pf_genericmethods {
 		cl_entertext(firstname, fn);
 		cl_entertext(middlename, mn);
 		cl_entertext(lastname, ln);
-		Thread.sleep(3000);
 		Select s = new Select(gender);
+		Thread.sleep(3000);
 		s.selectByValue(gn);
 		cl_entertext(DOB, dob);
 		cl_entertext(mobile, mo);
