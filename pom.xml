@@ -141,14 +141,6 @@
     <version>3.11.0</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-remote-driver</artifactId>
-    <version>3.11.0</version>
-</dependency>
-
-
 <dependency>
 
 <groupId>org.testng</groupId>
@@ -175,8 +167,9 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-remote-driver</artifactId>
-    <version>2.44.0</version>
+    <version>3.141.59</version>
 </dependency>
+
 
 
 </dependencies>
