@@ -36,20 +36,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/20112/Downloads/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/20112/Downloads/selenium-server-3.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/animal-sniffer-annotations-1.14.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/byte-buddy-1.7.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/error_prone_annotations-2.0.18.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/gson-2.8.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/guava-23.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/j2objc-annotations-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/jsr305-1.3.9.jar"/>
 	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/selenium-api-3.6.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/20112/Documents/Selenium jars/selenium-remote-driver-3.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
