@@ -69,6 +69,12 @@
 </dependency>
  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>2.50.1</version>
+</dependency>
 
 
 <dependency>
