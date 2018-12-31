@@ -232,7 +232,7 @@
             <version>3.8.0</version>
             <configuration>
                 
-                <compilerArgs>--enable-preview</compilerArgs>
+               
             </configuration>
         </plugin>
         <!-- This is just to make sure the class is set as main class to execute from the jar-->
