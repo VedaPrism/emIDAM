@@ -172,6 +172,12 @@
     <artifactId>selenide</artifactId>
     <version>4.4.2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/lift -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>lift</artifactId>
+    <version>3.6.0</version>
+</dependency>
 
 
 
