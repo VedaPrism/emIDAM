@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 27 09:59:03 IST 2018</td>
+<td>Started on:</td><td>Wed Jan 09 16:49:04 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16118 ms)</td>
+<tr><td>Total time:</td><td>44 seconds (44642 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>SMK </td>
 </tr><tr>
@@ -82,8 +82,8 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2008317584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2008317584'><pre>java.lang.NullPointerException
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace523210599", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace523210599'><pre>java.lang.NullPointerException
 	at Generic_Libraries.basicmethods.closeapp(basicmethods.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -116,39 +116,45 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Scripts.idamscripts.login()'><b>login</b><br>Test class: Scripts.idamscripts<br>Parameters: {Execute_Flag=Y, Uname=superadmin, Connectionname=Con1, Email=testem048@gmail.com, Organization=em, Gender=female, Confirmpass=emudhra1, Newpass=emudhra1, Script_Name=ValidLogin, Department=ESS(1), Edituser=em48, LDAPusername=SAU3\Administrator, TC_ID=t004, User to delete=test, DOB=33920.0, Expected_Result=emIDAM |Dashboard, Zipcode=656366.0, Middlename=aa, Pwd=emudhra, Order=1.0, LDAPcontainer=cn=emIDAM3,dc=SAU3,dc=local, Editdeptname=prism, Currentpass=emudhra, Inactivateuser=cbvbc, Lastname=ar, Address2=eds, Deptname=depttwo, Address1=bca, Firstname=Mr, Role=Checker(2), Username=em48, LDAPurl=10.80.107.225:389, State=Karnataka(1760), Country=India(103), EmpID=202999.0, District=BANGALORE(105891), Actual Result=, Mobilenumber=9.090222222E9, LDAPpass=test@12345}</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;hidden-xs hidden-sm&quot;&gt;...&lt;/span&gt; is not clickable at point (1264, 34). Other element would receive the click: &lt;div class=&quot;modal alertModal fade windowAlert in&quot; role=&quot;dialog&quot; data-backdrop=&quot;static&quot; id=&quot;popup&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;allUsersList&apos;]/tbody/tr[2]/td[2]&quot;}
   (Session info: chrome=71.0.3578.98)
   (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
 System info: host: &apos;LAP195&apos;, ip: &apos;10.80.106.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52397}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Users\20112\AppData\Local\Temp\scoped_dir3048_8693}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5e1beeaecff6febe670ad5a5304456a6
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58228}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Users\20112\AppData\Local\Temp\scoped_dir6604_18290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fb8f26d665204193d99345143c4d447b
+*** Element info: {Using=xpath, value=//table[@id=&apos;allUsersList&apos;]/tbody/tr[2]/td[2]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at pagefactory.pf_genericmethods.cl_click(pf_genericmethods.java:11)
-	at pagefactory.pf_logout.logout(pf_logout.java:22)
-	at Scripts.idamscripts.login(idamscripts.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at pagefactory.pf_ldap.manageldap(pf_ldap.java:64)
+	at Scripts.idamscripts.login(idamscripts.java:81)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1571336712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1571336712'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;hidden-xs hidden-sm&quot;&gt;...&lt;/span&gt; is not clickable at point (1264, 34). Other element would receive the click: &lt;div class=&quot;modal alertModal fade windowAlert in&quot; role=&quot;dialog&quot; data-backdrop=&quot;static&quot; id=&quot;popup&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace238712247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace238712247'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;allUsersList&apos;]/tbody/tr[2]/td[2]&quot;}
   (Session info: chrome=71.0.3578.98)
   (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
 System info: host: &apos;LAP195&apos;, ip: &apos;10.80.106.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52397}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Users\20112\AppData\Local\Temp\scoped_dir3048_8693}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5e1beeaecff6febe670ad5a5304456a6
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58228}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Users\20112\AppData\Local\Temp\scoped_dir6604_18290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fb8f26d665204193d99345143c4d447b
+*** Element info: {Using=xpath, value=//table[@id=&apos;allUsersList&apos;]/tbody/tr[2]/td[2]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -156,17 +162,15 @@ Session ID: 5e1beeaecff6febe670ad5a5304456a6
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at pagefactory.pf_genericmethods.cl_click(pf_genericmethods.java:11)
-	at pagefactory.pf_logout.logout(pf_logout.java:22)
-	at Scripts.idamscripts.login(idamscripts.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at pagefactory.pf_ldap.manageldap(pf_ldap.java:64)
+	at Scripts.idamscripts.login(idamscripts.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -188,8 +192,8 @@ Session ID: 5e1beeaecff6febe670ad5a5304456a6
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>9</td>
-<td>Scripts.idamscripts@73ad2d6</td></tr>
+<td>37</td>
+<td>Scripts.idamscripts@2d928643</td></tr>
 </table><p>
 </body>
 </html>

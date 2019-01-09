@@ -58,26 +58,26 @@ public class idamscripts extends basicmethods{
 	
 	pf_superadminlogin ps = new pf_superadminlogin(s);
 	ps.sal(uid, pas);
-	/*pf_dashboard pd = new pf_dashboard(s);
-	pd.dashboard();*/
-	/*pf_createAdmin pc = new pf_createAdmin(s);
+	pf_dashboard pd = new pf_dashboard(s);
+	pd.dashboard();
+	pf_createAdmin pc = new pf_createAdmin(s);
 	pc.create(fn,mn,ln,gn,dob,mo,em,un,or,de,ep,rl,a1,a2,co,st,dt,zi);
-	pc.manageadmin(ud,ed,in, s);*/
-	/*pf_departments pd = new pf_departments(s);
-	pd.createdepartment(dep);
-	pd.managedepartment(s,editinput);*/
-	/*pf_backup pb = new pf_backup(s);
-	pb.backup();*/
-	/*pf_reports pr = new pf_reports(s);
-	pr.report(s);*/
-	/*pf_profile pp = new pf_profile(s);
-	pp.profilepage(s);*/
-	/*pf_changepassword pcp = new pf_changepassword(s);
-	pcp.changepassword(cp, np, con);*/
-	/*pf_activedirectory pa = new pf_activedirectory(s);
-	pa.activedirectorysettings();*/
+	pc.manageadmin(ud,ed,in, s);
+	pf_departments pde = new pf_departments(s);
+	pde.createdepartment(dep);
+	pde.managedepartment(s,editinput);
+	pf_backup pb = new pf_backup(s);
+	pb.backup();
+	pf_reports pr = new pf_reports(s);
+	pr.report(s);
+	pf_profile pp = new pf_profile(s);
+	pp.profilepage(s);
+	pf_changepassword pcp = new pf_changepassword(s);
+	pcp.changepassword(cp, np, con);
+	pf_activedirectory pa = new pf_activedirectory(s);
+	pa.activedirectorysettings();
 	pf_ldap pld = new pf_ldap(s);
-//	pld.ldap(cna, ur, ct, ad, ap);
+	pld.ldap(cna, ur, ct, ad, ap);
 	pld.manageldap();
 	pf_logout pl = new pf_logout(s);
 	pl.logout();
